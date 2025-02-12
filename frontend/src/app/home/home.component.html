@@ -1,0 +1,14 @@
+<div>
+    <!-- Header -->
+    <div class="modal-header modal-logo-header">
+      <img src="assets/logos/ph-logo.svg" alt="" class="ph-logo">
+    </div>
+  
+    <!-- Content -->
+    <div class="form-container">
+        <h1>Welcome to PocketHealth {{user.name}}.</h1>
+        <h2>Your User ID is: {{user.userId}}</h2> 
+        <h2>Favourite colour is:</h2>
+        <div [style.width]="'150px'" [style.height]="'150px'" [style.background-color]="user.colour"></div>
+    </div>
+  </div>
